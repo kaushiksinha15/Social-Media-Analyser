@@ -11,7 +11,7 @@ Beyond analysis, Unthink acts as an automated platform-native copywriter. It int
 
 # Social Media Content Analyzer ⚡
 
-A production-ready Streamlit diagnostic engine for evaluating and adapting social media copy — powered by **Gemini 2.0 Flash**, **textstat**, and **Tesseract OCR**.
+A production-ready Streamlit diagnostic engine for evaluating and adapting social media copy — powered by **Groq**, **textstat**, and **Tesseract OCR**.
 
 ---
 
@@ -67,7 +67,7 @@ streamlit run app.py
 ## Tech Stack
 
 - **UI**: Streamlit with custom CSS dark mode
-- **AI**: Google Gemini 2.0 Flash (structured JSON output via `google-genai`)
+- **AI**: Groq
 - **Readability**: textstat (Flesch, Gunning Fog, SMOG)
 - **PDF**: pypdf
 - **OCR**: pytesseract + Pillow
