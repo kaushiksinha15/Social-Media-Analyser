@@ -1,3 +1,13 @@
+#Write Up
+Unthink is an advanced, AI-powered diagnostic engine designed to evaluate and optimize social media marketing copy. Built with a sleek, responsive Streamlit interface, the application bridges the gap between deterministic linguistic metrics and generative AI analysis to give marketers actionable insights in seconds.
+
+At its core, Unthink leverages the lightning-fast Groq API (powered by Llama 3 models) to perform a rigorous multi-dimensional evaluation of your content. It scores copy based on Hook Retention, Call-to-Action (CTA) Clarity, and Audience Resonance, while simultaneously identifying top strengths, areas for improvement, and the dominant emotional tone. To ensure content accessibility, a deterministic readability engine (via textstat) calculates the Flesch Reading Ease and Gunning Fog indices.
+
+Beyond analysis, Unthink acts as an automated platform-native copywriter. It intelligently refactors your original text into perfectly optimized formats for LinkedIn, X (Twitter), and Instagram—automatically adjusting character limits, spacing, and hashtag strategies. Featuring seamless document ingestion (supporting both PDF parsing and image OCR via Tesseract) and a highly modular backend architecture, Unthink is a comprehensive tool for creators looking to elevate their digital presence.
+
+
+
+
 # Social Media Content Analyzer ⚡
 
 A production-ready Streamlit diagnostic engine for evaluating and adapting social media copy — powered by **Gemini 2.0 Flash**, **textstat**, and **Tesseract OCR**.
